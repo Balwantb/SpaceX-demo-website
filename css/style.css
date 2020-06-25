@@ -165,3 +165,56 @@ header nav .nav-right .search > div img {
     transform: translateY(100px) rotate(-30deg) scale(0.8);
   }
 }
+
+section.strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: var(--dark);
+  padding: 50px 0px;
+}
+
+section.rocket {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr;
+  grid-gap: 80px;
+  padding: 100px 0;
+}
+
+section.rocket .rocket-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section.rocket .rocket-body span {
+  font-size: 0;
+}
+
+section.rocket .rocket-body span img {
+  width: 100%;
+}
+
+section.rocket .block {
+  width: 70%;
+}
+
+section.rocket .block h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+section.rocket .block .with-underline {
+  position: relative;
+}
+
+section.rocket .block .with-underline:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--pure);
+}
