@@ -11,12 +11,12 @@
   outline: none;
   cursor: pointer;
   font-size: 16px;
+  transition: all 0.5s ease-in-out;
 }
 
 .btn-primary {
   color: var(--dark);
   background: var(--pure);
-  transition: all 0.5s ease-in-out;
 }
 
 .btn-primary:hover {
@@ -25,4 +25,13 @@
   border-color: var(--pure);
 }
 
+.btn-secondary {
+  background: transparent;
+  color: var(--pure);
+  border-color: var(--pure);
+}
 
+.btn-secondary:hover {
+  background: var(--pure);
+  color: var(--dark);
+}
